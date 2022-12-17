@@ -1,0 +1,181 @@
+@media only screen and (min-width: 768px) {
+    body {
+        width: 80%;
+    }
+    nav {
+        text-align: center;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+    nav li {
+       display: inline-block;
+       width: 10%;
+   }
+ }
+  
+ @media only screen and (min-width: 1440px) {
+    body {
+        width: auto;
+        height: auto;
+    }
+   nav li {
+       display: inline-block;
+       width: 10%;
+   }
+ }
+  
+ body {
+    width: 80%;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+ }
+  
+ h1 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+ }
+  
+ #Xbox {
+    margin: auto;
+    float: left;
+    padding: 2%;
+ }
+  
+ #HaloInfinite {
+    margin:auto;
+    float:left;
+    padding: 2%;
+ }
+  
+ #controller{
+    margin: auto;
+    float: left;
+    padding: 2%;
+ }
+  
+ #headphones {
+    margin: auto;
+    float: left;
+    padding: 2%;
+  
+ }
+  
+ #specs {
+    display: block;
+ }
+  
+ #features {
+    display: block;
+  
+ }
+  
+ nav {
+     text-align: center;
+     margin-top: auto;
+     margin-left: 5%;
+     margin-right: 5%;
+     background-color: white;
+     color: green;
+ }
+  
+ nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+ }
+ nav a {
+    text-decoration: none;
+    color: inherit;
+ }
+ nav li{
+    padding: 10px;
+ }
+ nav li:hover {
+    background-color: green;
+    color: white;
+ }
+ nav li {
+    display: inline-block;
+    width: 22%;
+ }
+  
+ div {
+    font-size: medium;
+    font-weight: 700px;
+    font-style: normal;
+    display: block;
+    padding: auto;
+ }
+  
+ footer {
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    margin: auto;
+ }
+  
+ .darkMode {
+    background-color: black;
+    color: white;
+ }
+  
+ #WTP{
+    text-align: center;
+ }
+  
+ .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+   /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    top: auto;
+    margin-left: -80px;
+  }
+   /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: green transparent transparent transparent;
+  }
+   /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+   /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+   @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+ 
